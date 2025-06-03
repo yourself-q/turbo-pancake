@@ -81,4 +81,6 @@ def index():
     return render_template_string(HTML_TEMPLATE, messages=[])
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=54830, debug=True)
+    # Use the port from runtime information
+    import os
+    app.run(host='0.0.0.0', port=57379, debug=True)

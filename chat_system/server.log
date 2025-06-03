@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/workspace/chat_system/web_interface.py", line 15, in <module>
-    from src.main import process_message as main_module_process_message
-  File "/workspace/chat_system/src/main.py", line 10, in <module>
-    sys.path.append(os.path.dirname(os.path.dirname))
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "<frozen posixpath>", line 181, in dirname
-TypeError: expected str, bytes or os.PathLike object, not function

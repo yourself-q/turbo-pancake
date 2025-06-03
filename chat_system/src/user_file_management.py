@@ -5,7 +5,7 @@
 
 import os
 
-USER_DATA_DIR = "/workspace/chat_system/user_data"
+USER_DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "user_data")
 
 def get_user_file_path(name: str) -> str:
     """

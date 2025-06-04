@@ -83,4 +83,4 @@ def index():
 if __name__ == '__main__':
     # Use the port from runtime information
     import os
-    app.run(host='0.0.0.0', port=57379, debug=True)
+    app.run(host='0.0.0.0', port=8000, debug=True)
